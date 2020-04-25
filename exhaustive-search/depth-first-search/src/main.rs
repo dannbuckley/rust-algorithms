@@ -39,7 +39,7 @@ fn depth_first_search_vertex(g: &Compressed<u8>, g_f: &mut Compressed<u8>, v_set
 }
 
 fn main() {
-    // use example graph from book
+    // use example graph from book (Figure 3.10)
     // represent graph with adjacency matrix
     let mut graph = Compressed::<u8>::zero((10, 10));
     // a
@@ -88,10 +88,36 @@ fn main() {
 
     let final_graph = depth_first_search(&graph);
 
-    println!("Edges in DFS Forest:");
+    println!("Edges in DFS Forest (3.10):");
     for x in 0..10 {
         for y in 0..10 {
             if final_graph.get((x, y)) == 1 {
+                println!("\t {} to {}", x, y);
+            }
+        }
+    }
+
+    // example graph from Figure 4.5 in section on "Topological Sorting"
+    let mut digraph = Compressed::<u8>::zero((5, 5));
+
+    //a
+    digraph.set((0, 1), 1);
+    digraph.set((0, 2), 1);
+
+    //b
+    digraph.set((1, 0), 1);
+    digraph.set((1, 2), 1);
+
+    //d
+    digraph.set((3, 2), 1);
+    digraph.set((3, 4), 1);
+
+    let final_digraph = depth_first_search(&digraph);
+
+    println!("Edges in DFS Forest (4.5):");
+    for x in 0..5 {
+        for y in 0..5 {
+            if final_digraph.get((x, y)) == 1 {
                 println!("\t {} to {}", x, y);
             }
         }

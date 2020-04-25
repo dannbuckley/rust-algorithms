@@ -44,7 +44,7 @@ fn breadth_first_search_vertex(g: &Compressed<u8>, g_f: &mut Compressed<u8>, v_s
 }
 
 fn main() {
-    // use example graph from book
+    // use example graph from book (Figure 3.11)
     // represent graph with adjacency matrix
     let mut graph = Compressed::<u8>::zero((10, 10));
     // a
