@@ -20,12 +20,9 @@ Algorithms from *Introduction to The Design and Analysis of Algorithms* (3rd ed.
   * Mergesort
   * Quicksort
 * Dynamic Programming (Ch. 8)
-  * Change Making
-  * Coin Row
   * Floyd's algorithm
   * Memory-Function Knapsack
   * Optimal Binary Search Tree (BST)
-  * Robot Coin Collection
   * Warshall's algorithm
 * Exhaustive Search (Ch. 3)
   * Breadth-first Search
