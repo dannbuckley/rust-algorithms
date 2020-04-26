@@ -16,11 +16,9 @@ Algorithms from *Introduction to The Design and Analysis of Algorithms* (3rd ed.
   * Lexicographic Permutations
   * Quickselect
 * Divide-and-Conquer (Ch. 5)
-  * Binary Tree Height
   * Efficient Closest-Pair
   * Mergesort
   * Quicksort
-  * Strassen's Matrix Multiplication
 * Dynamic Programming (Ch. 8)
   * Change Making
   * Coin Row
