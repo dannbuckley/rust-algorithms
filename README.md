@@ -3,51 +3,51 @@ Algorithms from *Introduction to The Design and Analysis of Algorithms* (3rd ed.
 
 ## Contents
 * Brute Force (Ch. 3)
-  * Brute-Force Closest-Pair
-  * Brute-Force String Matching
-  * Bubble Sort
-  * Selection Sort
-  * Sequential Search 2  
+  * [Brute-Force Closest-Pair](https://github.com/dannbuckley/rust-algorithms/tree/master/brute-force/brute-force-closest-pair)
+  * [Brute-Force String Matching](https://github.com/dannbuckley/rust-algorithms/tree/master/brute-force/brute-force-string-match)
+  * [Bubble Sort](https://github.com/dannbuckley/rust-algorithms/tree/master/brute-force/bubble-sort)
+  * [Selection Sort](https://github.com/dannbuckley/rust-algorithms/tree/master/brute-force/selection-sort)
+  * [Sequential Search 2](https://github.com/dannbuckley/rust-algorithms/tree/master/brute-force/sequential-search-2)
 * Decrease-and-Conquer (Ch. 4)
-  * Binary Search
-  * Binary-Reflected Gray Code (BRGC)
-  * Insertion Sort
-  * Johnson-Trotter
-  * Lexicographic Permutations
-  * Quickselect
+  * [Binary Search](https://github.com/dannbuckley/rust-algorithms/tree/master/decrease-and-conquer/binary-search)
+  * [Binary-Reflected Gray Code (BRGC)](https://github.com/dannbuckley/rust-algorithms/tree/master/decrease-and-conquer/brgc)
+  * [Insertion Sort](https://github.com/dannbuckley/rust-algorithms/tree/master/decrease-and-conquer/insertion-sort)
+  * [Johnson-Trotter Permutations](https://github.com/dannbuckley/rust-algorithms/tree/master/decrease-and-conquer/johnson-trotter)
+  * [Lexicographic Permutations](https://github.com/dannbuckley/rust-algorithms/tree/master/decrease-and-conquer/lexicographic-permute)
+  * [Quickselect](https://github.com/dannbuckley/rust-algorithms/tree/master/decrease-and-conquer/quickselect)
 * Divide-and-Conquer (Ch. 5)
-  * Efficient Closest-Pair
-  * Mergesort
-  * Quicksort
+  * [Efficient Closest-Pair](https://github.com/dannbuckley/rust-algorithms/tree/master/divide-and-conquer/efficient-closest-pair)
+  * [Mergesort](https://github.com/dannbuckley/rust-algorithms/tree/master/divide-and-conquer/mergesort)
+  * [Quicksort](https://github.com/dannbuckley/rust-algorithms/tree/master/divide-and-conquer/quicksort)
 * Dynamic Programming (Ch. 8)
-  * Floyd's algorithm
-  * Memory-Function Knapsack
-  * Optimal Binary Search Tree (BST)
-  * Warshall's algorithm
+  * [Floyd's All-Pairs Shortest-Path algorithm](https://github.com/dannbuckley/rust-algorithms/tree/master/dynamic-programming/floyd)
+  * [Memory-Function Knapsack](https://github.com/dannbuckley/rust-algorithms/tree/master/dynamic-programming/mf-knapsack)
+  * [Optimal Binary Search Tree (BST)](https://github.com/dannbuckley/rust-algorithms/tree/master/dynamic-programming/optimal-binary-search-tree)
+  * [Warshall's Transitive Closure algorithm](https://github.com/dannbuckley/rust-algorithms/tree/master/dynamic-programming/warshall)
 * Exhaustive Search (Ch. 3)
-  * Breadth-first Search
-  * Depth-first Search
+  * [Breadth-first Search](https://github.com/dannbuckley/rust-algorithms/tree/master/exhaustive-search/breadth-first-search)
+  * [Depth-first Search](https://github.com/dannbuckley/rust-algorithms/tree/master/exhaustive-search/depth-first-search)
 * Greedy Technique (Ch. 9)
-  * Dijkstra's algorithm
-  * Huffman Codes
-  * Kruskal's algorithm
-  * Prim's algorithm
+  * [Dijkstra's Single-Source Shortest Path algorithm](https://github.com/dannbuckley/rust-algorithms/tree/master/greedy/dijkstra)
+  * [Huffman Codes](https://github.com/dannbuckley/rust-algorithms/tree/master/greedy/huffman)
+  * [Kruskal's Minimum Spanning Tree algorithm](https://github.com/dannbuckley/rust-algorithms/tree/master/greedy/kruskal)
+  * [Prim's Minimum Spanning Tree algorithm](https://github.com/dannbuckley/rust-algorithms/tree/master/greedy/prim)
 * Iterative Improvement (Ch. 10)
-  * Maximum Bipartite Matching
-  * Shortest Augmenting Path
-  * Stable Marriage algorithm
+  * [Maximum Bipartite Matching](https://github.com/dannbuckley/rust-algorithms/tree/master/iterative-improvement/maximum-bipartite-matching)
+  * [Shortest Augmenting Path](https://github.com/dannbuckley/rust-algorithms/tree/master/iterative-improvement/shortest-augmenting-path)
+  * [Stable Marriage algorithm](https://github.com/dannbuckley/rust-algorithms/tree/master/iterative-improvement/stable-marriage)
 * Space and Time Trade-offs (Ch. 7)
-  * Boyer-Moore
-  * Comparison Counting Sort
-  * Distribution Counting Sort
-  * Horspool's algorithm
+  * [Boyer-Moore String Matching](https://github.com/dannbuckley/rust-algorithms/tree/master/space-time-trade-off/boyer-moore)
+  * [Comparison Counting Sort](https://github.com/dannbuckley/rust-algorithms/tree/master/space-time-trade-off/comparison-counting-sort)
+  * [Distribution Counting Sort](https://github.com/dannbuckley/rust-algorithms/tree/master/space-time-trade-off/distribution-counting-sort)
+  * [Horspool's String Matching algorithm](https://github.com/dannbuckley/rust-algorithms/tree/master/space-time-trade-off/horspool)
 * Transform-and-Conquer (Ch. 6)
-  * Better Gaussian Forward Elimination
-  * Gaussian Forward Elimination
-  * Heap Bottom-up Construction
-  * Heapsort
-  * Horner's Rule
-  * Left-Right Binary Exponentiation
-  * Presort Element Uniqueness
-  * Presort Mode
-  * Right-Left Binary Exponentiation
+  * [Gaussian Forward Elimination with partial pivoting](https://github.com/dannbuckley/rust-algorithms/tree/master/transform-and-conquer/better-forward-elimination)
+  * [Gaussian Forward Elimination](https://github.com/dannbuckley/rust-algorithms/tree/master/transform-and-conquer/forward-elimination)
+  * [Heap Bottom-up Construction](https://github.com/dannbuckley/rust-algorithms/tree/master/transform-and-conquer/heap-bottom-up)
+  * [Heapsort](https://github.com/dannbuckley/rust-algorithms/tree/master/transform-and-conquer/heapsort)
+  * [Horner's Rule for Evaluating Polynomials](https://github.com/dannbuckley/rust-algorithms/tree/master/transform-and-conquer/horners-rule)
+  * [Left-Right Binary Exponentiation](https://github.com/dannbuckley/rust-algorithms/tree/master/transform-and-conquer/left-right-binary-exponentiation)
+  * [Presort Element Uniqueness](https://github.com/dannbuckley/rust-algorithms/tree/master/transform-and-conquer/presort-element-uniqueness)
+  * [Presort Mode](https://github.com/dannbuckley/rust-algorithms/tree/master/transform-and-conquer/presort-mode)
+  * [Right-Left Binary Exponentiation](https://github.com/dannbuckley/rust-algorithms/tree/master/transform-and-conquer/right-left-binary-exponentiation)
