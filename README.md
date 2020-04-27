@@ -37,7 +37,6 @@ Algorithms from *Introduction to The Design and Analysis of Algorithms* (3rd ed.
   * [Shortest Augmenting Path](https://github.com/dannbuckley/rust-algorithms/tree/master/iterative-improvement/shortest-augmenting-path)
   * [Stable Marriage algorithm](https://github.com/dannbuckley/rust-algorithms/tree/master/iterative-improvement/stable-marriage)
 * Space and Time Trade-offs (Ch. 7)
-  * [Boyer-Moore String Matching](https://github.com/dannbuckley/rust-algorithms/tree/master/space-time-trade-off/boyer-moore)
   * [Comparison Counting Sort](https://github.com/dannbuckley/rust-algorithms/tree/master/space-time-trade-off/comparison-counting-sort)
   * [Distribution Counting Sort](https://github.com/dannbuckley/rust-algorithms/tree/master/space-time-trade-off/distribution-counting-sort)
   * [Horspool's String Matching algorithm](https://github.com/dannbuckley/rust-algorithms/tree/master/space-time-trade-off/horspool)
