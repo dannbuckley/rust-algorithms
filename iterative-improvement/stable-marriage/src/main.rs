@@ -4,6 +4,9 @@ use matrix::prelude::*;
 use std::collections::VecDeque;
 use std::vec::Vec;
 
+// Input: A set of n men and a set of n women along with rankings of the women by each man
+//     and rankings of the men by each woman with no ties allowed in the rankings
+// Output: A stable marriage matching
 fn stable_marriage(m: &Compressed<u8>, f: &Compressed<u8>) -> Vec<(usize, usize)> {
     let mut pairs = Vec::<(usize, usize)>::new();
 
